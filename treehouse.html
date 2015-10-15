@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/badges.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h3>Treehouse</h3>
+        <div class="report-card treehouse"></div>
+    </div>
+    <script src="js/jquery.js">
+    </script> 
+    <script src="js/reportcard.js">
+    </script> 
+    <script>
+    $('.report-card.treehouse').reportCard({
+    userName: 'jackmcdowell',
+    site: 'treehouse',
+    badgesAmount: 7
+    });
+    </script>
+</body>
+</html>
